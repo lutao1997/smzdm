@@ -61,9 +61,9 @@ define(["jquery"], function($) {
                     }
                     $("#jingao").html(obj.message);
                     $("#jingao").show();
-                    setTimeout(function() {
+                    /* setTimeout(function() {
                         location.assign("login.html");
-                    }, 500)
+                    }, 500) */
                 },
                 error: function(msg) {
                     alert(msg);
