@@ -1,0 +1,23 @@
+{
+    "banner": [{
+            "img": "1.png",
+            "url": "http://www.mi.com/redminote8"
+        },
+        {
+            "img": "2.png",
+            "url": "http://www.mi.com/redminote8pro"
+        },
+        {
+            "img": "3.png",
+            "url": "http://www.mi.com/redmibook14-zqb"
+        },
+        {
+            "img": "4.png",
+            "url": "https://www.mi.com/a/h/11570.html"
+        },
+        {
+            "img": "5.png",
+            "url": "https://www.mi.com/a/h/11544.html"
+        }
+    ]
+}

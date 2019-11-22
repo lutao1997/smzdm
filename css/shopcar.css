@@ -1,0 +1,286 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+.searchbox {
+  background: #fff; }
+
+.searchbox .search {
+  width: 980px;
+  height: 108px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #fff; }
+  .searchbox .search .logo {
+    width: 240px;
+    height: 108px;
+    float: left;
+    margin-right: 2em; }
+    .searchbox .search .logo img {
+      width: 100%;
+      height: 100%; }
+  .searchbox .search .inputbox {
+    width: 600px;
+    height: 40px;
+    float: left;
+    margin-top: 22px; }
+    .searchbox .search .inputbox input {
+      border: none; }
+    .searchbox .search .inputbox input:first-child {
+      width: 500px;
+      height: 40px;
+      text-indent: 10px;
+      float: left;
+      box-sizing: border-box;
+      border: 2px solid #e62828;
+      outline: none; }
+    .searchbox .search .inputbox input:last-child {
+      float: left;
+      background-color: #e62828;
+      line-height: 28px;
+      cursor: pointer;
+      width: 100px;
+      font-size: 14px;
+      color: #fff;
+      outline: none;
+      height: 40px; }
+
+.my-shopcar-title {
+  width: 980px;
+  height: 33px;
+  margin: 0 auto;
+  font-size: 29px;
+  line-height: 33px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 15px; }
+
+.tip {
+  width: 948px;
+  height: 30px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  margin: 0 auto; }
+  .tip div {
+    float: left;
+    line-height: 30px;
+    font-size: 14px; }
+  .tip .msg {
+    margin-left: 170px; }
+  .tip .price {
+    margin-left: 288px; }
+  .tip .much {
+    margin-left: 75px; }
+  .tip .subtotal {
+    margin-left: 65px; }
+  .tip .how {
+    margin-left: 110px; }
+
+.shopcar-list {
+  width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  /* li:nth-child(2n) {
+        border-color: #e62828;
+        border-width: 2px;
+    } */ }
+  .shopcar-list li {
+    width: 948px;
+    height: 128px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px; }
+    .shopcar-list li .checkbox {
+      width: 15px;
+      height: 15px;
+      margin: 15px 0 0 22px;
+      float: left; }
+    .shopcar-list li .shop-img {
+      width: 80px;
+      height: 80px;
+      margin: 15px 25px 0 25px;
+      float: left; }
+      .shopcar-list li .shop-img img {
+        width: 100%;
+        height: 100%; }
+    .shopcar-list li .shop-name {
+      width: 186px;
+      height: 36px;
+      float: left;
+      margin: 15px 0 0 5px;
+      font-size: 12px;
+      overflow: hidden;
+      line-height: 18px; }
+    .shopcar-list li .icon-img {
+      width: 57px;
+      height: 16px;
+      float: left;
+      margin: 73px 0 0 -186px; }
+      .shopcar-list li .icon-img div {
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 3px; }
+        .shopcar-list li .icon-img div img {
+          width: 100%;
+          height: 100%; }
+    .shopcar-list li .shop-tip,
+    .shopcar-list li .shop-price {
+      width: 135px;
+      height: 80px;
+      color: #666;
+      float: left;
+      font-size: 12px;
+      padding: 0 5px 0 0;
+      text-indent: 15px;
+      margin-top: 15px; }
+    .shopcar-list li .shop-price {
+      width: 70px;
+      color: #000;
+      float: left;
+      text-indent: 0;
+      margin-top: 15px;
+      text-align: center; }
+    .shopcar-list li .amount {
+      width: 77px;
+      height: 25px;
+      float: left;
+      margin-top: 50px;
+      margin-right: 20px;
+      margin-left: 27px; }
+      .shopcar-list li .amount button {
+        width: 19px;
+        height: 25px;
+        border: none; }
+      .shopcar-list li .amount input {
+        width: 37px;
+        height: 23px;
+        border: none;
+        border: 1px solid #ccc;
+        text-align: center; }
+    .shopcar-list li .total {
+      display: inline-block;
+      width: 80px;
+      margin-top: 50px;
+      text-align: center; }
+    .shopcar-list li .delete-shop {
+      width: 120px;
+      height: 40px;
+      font-size: 14px;
+      border-radius: 7px;
+      border: none;
+      line-height: 40px;
+      background: #e62828;
+      color: #fff;
+      letter-spacing: 1px;
+      margin-left: 24px;
+      margin-top: 40px; }
+    .shopcar-list li .delete-shop:hover {
+      background: red;
+      cursor: pointer; }
+
+.jiesuan {
+  width: 950px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-bottom: none; }
+  .jiesuan div {
+    float: left;
+    line-height: 50px; }
+  .jiesuan .allclose {
+    width: 300px;
+    height: 50px;
+    margin-right: 395px; }
+    .jiesuan .allclose button {
+      width: 130px;
+      height: 35px;
+      border-radius: 7px;
+      border: none;
+      margin-left: 70px; }
+    .jiesuan .allclose input {
+      margin: 0 20px 0 20px; }
+  .jiesuan .number {
+    margin-right: 50px; }
+
+footer {
+  width: 100%;
+  background: #eee; }
+  footer .footer {
+    width: 1200px;
+    height: 392px;
+    background: #eee;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative; }
+    footer .footer #about {
+      width: 857px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 33px;
+      background: #eee;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 170px;
+      margin: 33px 0 33px 170px; }
+      footer .footer #about li {
+        float: left;
+        font-size: 14px; }
+      footer .footer #about li:hover {
+        color: #e62828;
+        cursor: pointer; }
+    footer .footer p {
+      color: #333;
+      font-size: 14px; }
+    footer .footer p:nth-child(2)::after {
+      content: "申请";
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 12px;
+      color: gray; }
+  footer .link {
+    width: 844px;
+    height: 80px;
+    list-style: none;
+    margin-bottom: 30px; }
+  footer .link li {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #777; }
+  footer .link li:hover {
+    cursor: pointer;
+    color: #e62828; }
+  footer .link li::after {
+    content: "|";
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+    color: gray; }
+  footer p:nth-child(4),
+  footer p:nth-child(5),
+  footer p:nth-child(6),
+  footer p:nth-child(7) {
+    color: #777;
+    font-size: 12px; }
+  footer .bel {
+    width: 86px;
+    height: 28px;
+    background: url(https://res.smzdm.com/resources/public/img/pc_global/honesty_website.png);
+    background-size: 100% 100%;
+    margin-top: 10px; }
+  footer .code {
+    width: 122px;
+    height: 122px;
+    background: url(https://res.smzdm.com/resources/public/img/pc_global/qrcode.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 150px;
+    right: 60px;
+    border: 1px solid #666; }
