@@ -48,7 +48,7 @@ define(["parabola", "jquery", "jquery-cookie"], function(parabola, $) {
             success: function(arr) {
                 for (var i = 0; i < arr.length; i++) {
                     var node = $(`<li>
-                        <a href="http://localhost:5256/shop.html" target="_blank">
+                        <a href="shop.html" target="_blank">
                             <img src="${arr[i].img}" alt="">
                             <div>${arr[i].desc}</div>
                             <span>${arr[i].tip}</span>
@@ -177,7 +177,7 @@ define(["parabola", "jquery", "jquery-cookie"], function(parabola, $) {
                                 <div class="shop-img">
                                     <img src="${newArr[i].img}" alt="">
                                 </div>
-                                <a href="http://localhost:5256/shop.html" target="_blank">
+                                <a href="shop.html" target="_blank">
                                     <div class="shop-name">
                                         Apple/苹果 13 英寸 MacBook Pro 触控栏和触控 ID 2.4GHz 四核处理器 (Turbo Boost 最高可达 4.1GHz) 512GB 存储容量
                                     </div>
